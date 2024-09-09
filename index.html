@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Мой BEM сайт</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" 
+/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Yeseva+One&display=swap" rel="stylesheet"
+/>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo-img" src="/icon/ic.png" alt="/" />
+        <p>ALLAEVGENEVNA</p>
+      </div>
+      <nav class="header__nav">
+        <a href="#" class="header__nav-link">ГЛАВНАЯ</a>
+        <a href="#" class="header__nav-link">ПРОГРАММА</a>
+        <a href="#" class="header__nav-link">ГАЛЕРЕЯ</a>
+        <a href="#" class="header__nav-link">ЦЕНЫ</a>
+      </nav>
+      <div class="header__menu" id="header__menu">
+        <img class="header__menu-img" src="/icon/menu.png" alt="/" />
+      </div>
+
+      <div class="header__modal" id="header__modal">
+        <nav class="header__modal-nav">
+          <a href="#" class="header__modal-link">Главная</a>
+          <a href="#" class="header__modal-link">Программа</a>
+          <a href="#" class="header__modal-link">Галерея</a>
+          <a href="#" class="header__modal-link">Цены</a>
+        </nav>
+
+        <p class="header__modal-close" id="header__modal-close">✖</p>
+      </div>
+    </header>
+
+    <main class="content">
+      <ul class="content__btn">
+        <li> 
+          <a class="content__btn-vi" href="https://rutube.ru/video/837714525fb73ea42d23b6b657cd4252/?r=wd" target="_parent"> 
+            <img class="content__btn-ic" src="/icon/Play.png" alt="">
+          </a>
+        </li>
+      </ul>
+    
+      <section class="content__info">
+        <h1 class="content__info-title">Невероятная красота города захватывающая дух</h1>
+        <p>посетите самые красивые уголки Санкт-Петербурга и сохраните их в своей
+          памяти</p>
+        </p>
+        <div class="content__info-icon">
+          <span>Подробнее</span>
+          <i class="icon-PO"></i> 
+        </div>
+      </section>
+      <ul class="content__social">
+        <li> <a class="content__social-link" href="https://vk.com/al.sh96" target="_blank">
+           <img class="content__social-img" src="/icon/Vk.png" alt=""> 
+          </a></li>
+        <li> <a class="content__social-link" href="https://t.me/all_sh96" target="_blank"> <img class="content__social-img" src="/icon/Tg.png" alt=""> </a></li>
+      </ul>
+      <section class="content__main-img"></section>
+      <section class="content__temperature">
+        <h2>ТЕМПЕРАТУРА СЕЙЧАС:</h2>
+        <h3>24° С</h3>
+      </section>
+      <ul class="gallery__places">
+        <li class="gallery__places-item gallery__places-cathedral">
+          <h4 class="text_in">прогулки по городу</h4>    
+        </li>
+        <li class="gallery__places-item gallery__places-roofs">
+          <h4 class="text_in">прогулки по крышам</h4>
+        </li>
+        <li class="gallery__places-item gallery__places-bridges">
+          <h4 class="text_in">развод мостов на теплоходе</h4>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__text">
+        <li>Адрес компании: Санкт-Петербург, наб. Фонтанки, д. 15, оф. 1058</li> 
+        <li>Телефон: +7(900)358-96-78</li> 
+        <li>&copy;2024 Alla Postnikova</li>
+      </ul>
+    </footer>
+
+
+  </body>
+</html>
