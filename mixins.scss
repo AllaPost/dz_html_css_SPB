@@ -1,0 +1,9 @@
+// пример работы с миксинами
+
+$max-width: 370px;
+
+@mixin media370 () {
+  @media (max-width: $max-width) {
+    @content;
+  }
+}
