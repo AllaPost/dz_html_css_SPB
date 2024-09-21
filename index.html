@@ -13,13 +13,10 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" 
-/>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Yeseva+One&display=swap" rel="stylesheet"
-/>
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favikon/favicon-16x16.png">
+<link rel="manifest" href="./favicon/site.webmanifest">
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
@@ -28,7 +25,11 @@
   <body>
     <header class="header">
       <div class="header__logo">
-        <img class="header__logo-img" src="./icon/ic.png" alt="/" />
+        <img class="header__logo-img" src="./icon/ic_50.png" 
+        srcset="./icon/ic_35.png 35w,
+        ./icon/ic_50.png 50w"
+        sizes="(max-width: 816px) 35vw, 50vw"
+        alt="/" />
         <p>ALLAEVGENEVNA</p>
       </div>
       <nav class="header__nav">
@@ -78,7 +79,8 @@
           </a></li>
         <li> <a class="content__social-link" href="https://t.me/all_sh96" target="_blank"> <img class="content__social-img" src="./icon/Tg.png" alt=""> </a></li>
       </ul>
-      <section class="content__main-img"></section>
+      <section class="content__main-img">
+      </section>
       <section class="content__temperature">
         <h2>ТЕМПЕРАТУРА СЕЙЧАС:</h2>
         <h3>24° С</h3>

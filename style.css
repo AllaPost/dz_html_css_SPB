@@ -6,6 +6,21 @@
   --z-index-main-before: 50;
 }
 
+@font-face {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/YesevaOne-Regular.woff") format("woff"), url("./fonts/YesevaOne-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./fonts/CormorantInfant-Light.woff") format("woff"), url("./fonts/CormorantInfant-Light.woff2") format("woff2");
+}
+
 *,
 *::after,
 *::before {
@@ -15,6 +30,7 @@
 html {
   min-height: 100vh;
   height: 100%;
+  overflow: hidden;
 }
 
 html,
